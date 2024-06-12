@@ -1,0 +1,133 @@
+/* Estilos para o corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-image: url('https://healthunit.org/wp-content/uploads/cannabis-banner.jpg');
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    font-size: 24px; /* Tamanho da fonte aumentado para melhor legibilidade */
+}
+
+/* Estilos para o contêiner do cabeçalho */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para a parte esquerda do cabeçalho */
+.header-left {
+    flex: 1;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5); /* Adiciona sombra à fonte */
+}
+
+/* Estilos para a parte direita do cabeçalho */
+.header-right {
+    flex: 1;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5); /* Adiciona sombra à fonte */
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    margin-right: 20px; /* Ajuste a margem conforme necessário */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px;
+}
+
+/* Estilos para os produtos */
+.produto {
+    display: flex;
+    align-items: center;
+    border: 2px solid #6b8e23;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.produto img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    background-color: #6b8e23; /* Cor verde oliva como complemento ao verde da floresta */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para a seção de condição do tempo */
+.condicao-tempo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(15, 15, 15, 0.420); /* Fundo semi-transparente */
+    border-radius: 10px;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    color: white; /* Define a cor do texto */
+}
+
+/* Estilos para a seção de dicas de plantio */
+.dicas-plantio {
+    display: flex;
+    flex-direction: column; /* Altera o fluxo para empilhar verticalmente */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(15, 15, 15, 0.420); /* Fundo semi-transparente */
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    color: white; /* Define a cor do texto */
+}
+
+.condicao-tempo p {
+    margin-right: 20px; /* Espaçamento horizontal entre os elementos */
+}
